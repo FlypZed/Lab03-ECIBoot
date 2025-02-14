@@ -86,6 +86,9 @@ public class MyController {
 }
 ```
 
+![image](https://github.com/user-attachments/assets/ce2bb7fc-1125-4ea5-a252-a114de5049e1)
+
+
 📌 **¿Dónde se resuelve en el código?**
 - `IoCFramework.java`: Escanea clases con `@RestController` y detecta métodos con `@GetMapping`.
 - `RequestHandler.java`: Mapea rutas y ejecuta métodos asociados.
@@ -102,6 +105,9 @@ public String saludo(@RequestParam("nombre") String nombre) {
     return "Hola, " + nombre + "!";
 }
 ```
+
+![image](https://github.com/user-attachments/assets/a217747b-2e02-48d3-bf99-b313605bf61b)
+
 
 📌 **¿Dónde se resuelve en el código?**
 - `IoCFramework.java`: Extrae parámetros de la URL y los inyecta en el método adecuado.
