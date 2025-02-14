@@ -86,7 +86,8 @@ public class MyController {
 }
 ```
 
-![image](https://github.com/user-attachments/assets/ce2bb7fc-1125-4ea5-a252-a114de5049e1)
+![image](https://github.com/user-attachments/assets/66155d86-50fb-4a2a-b0a8-b727328cc852)
+
 
 
 📌 **¿Dónde se resuelve en el código?**
@@ -106,7 +107,8 @@ public String saludo(@RequestParam("nombre") String nombre) {
 }
 ```
 
-![image](https://github.com/user-attachments/assets/a217747b-2e02-48d3-bf99-b313605bf61b)
+![image](https://github.com/user-attachments/assets/0e6614f7-4e6e-4688-b20d-f244cc71ef97)
+
 
 
 📌 **¿Dónde se resuelve en el código?**
